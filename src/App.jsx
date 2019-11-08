@@ -1,13 +1,14 @@
 import React from 'react';
-// Switch renderea el primero hijo que haga match , si no hay una ruta definida 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Register from '../pages/Register';
+import Home from './pages/Home';
+import Car from './pages/car';
 
 function App() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route exact path="/" component={Register} />
+                <Route exact path="/" component={Home} />
+                <Route  path="/car" component={Car} />
             </Switch>
         </BrowserRouter>
     )
