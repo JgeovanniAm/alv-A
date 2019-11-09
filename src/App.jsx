@@ -8,6 +8,7 @@ import Car from './pages/car';
 import './index.scss';
 
 function App() {
+    // context reactRouter
     const { location } = useContext(__RouterContext);
     const transitions = useTransition(location, location => location.pathname, {
         from: { opacity: 0, transform: "translate(100%,0)" },

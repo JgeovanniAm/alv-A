@@ -6,6 +6,8 @@
   align-content: center;
   align-items: center;
   align-self: center;
+  opacity: .85;
+  position: relative;
 }
 
 .header__wrapper-jpg {
@@ -19,8 +21,22 @@
 
 .header__title {
   color: #b49655;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'PT Sans Caption', sans-serif;
   letter-spacing: 20px;
   margin:  5px 100px 5px 0;
+}
+
+canvas {
+  position: absolute;
+  padding: 5px 0;
+}
+
+.canvas {
+  left: 0;
+}
+
+.canvas-second {
+  right: 0;
+  transform: rotate(180deg)
 }
