@@ -1,0 +1,30 @@
+.nav {
+  padding: 15px;
+  width: 400px;
+}
+
+.nav__list-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__link {
+  color: white;
+  font-family: Helvetica,Arial,sans-serif;
+  letter-spacing: 3px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--active {
+  color: #b49655;
+  font-family: Helvetica,Arial,sans-serif;
+  letter-spacing: 3px;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

@@ -1,0 +1,26 @@
+.header {
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 5px 10px  #b49655;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.header__wrapper-jpg {
+  width: 15%;
+}
+
+.header__wrapper-jpg img {
+  width: 60px;
+  height: 55px;
+}
+
+.header__title {
+  color: #b49655;
+  font-size: 3rem;
+  font-family: 'PT Sans Caption', sans-serif;
+  letter-spacing: 20px;
+  margin:  5px 100px 5px 0;
+}

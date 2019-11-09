@@ -7,7 +7,7 @@ export default () => (
   <>
     <Layout>
       <Main>
-        home
+        product
       </Main>
     </Layout>
   </>

@@ -1,6 +1,14 @@
 import React from 'react';
+import Layout from '../layout/';
+import Main from '../sections/main';
 import './styles.scss';
 
-export default ()=>(
-  <h1>car</h1>
+export default () => (
+  <>
+   <Layout>
+      <Main>
+        car
+      </Main>
+    </Layout>
+  </>
 )
