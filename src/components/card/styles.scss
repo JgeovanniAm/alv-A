@@ -1,0 +1,31 @@
+.card {
+  display: inline;
+  margin: auto;
+  width: 200px;
+}
+
+.card__img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.card__title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card__sub-title {
+  opacity: 0.9;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 10px 0;
+  letter-spacing: 2px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.card__price {
+  color: #b49655;
+  font-size: 15px;
+  margin: 10px 0;
+  font-family: Helvetica,Arial,sans-serif;
+}
