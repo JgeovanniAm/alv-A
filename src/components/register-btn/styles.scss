@@ -1,0 +1,17 @@
+.btn-register {
+  padding: 5px 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color:  #b49655;
+  font-family: Helvetica,Arial,sans-serif;
+
+  &:hover {
+    color: white;
+    transition:  all 1s ease-in;
+  }
+}
+
+.sing-in {
+  border-right: 1.5px solid #8d7541;
+}
+

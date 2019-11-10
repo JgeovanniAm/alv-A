@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/nav/';
 import logo from '../img/x.jpg';
 import Draw from './canvas';
+import BtnRegister from '../components/register-btn';
 import './styles.scss';
 
 function drawCanvas(canvas) {
@@ -51,16 +52,17 @@ function drawCanvas(canvas) {
 
 export default () => (
   <section className="header">
-    <canvas className="canvas" ref={(e) => {
-      if (e) drawCanvas(e)
+    <canvas className="header__canvas" ref={(e) => {
+      if (e) drawCanvas(e);
     }} />
-    <canvas className="canvas-second" ref={(e) => {
-      if (e) drawCanvas(e)
+    <canvas className="header__canvas--second" ref={(e) => {
+      if (e) drawCanvas(e);
     }} />
     <div className="header__wrapper-jpg">
       <img src={logo} alt="logo" />
     </div>
     <h1 className="header__title">ALV-A</h1>
     <Nav />
+    <BtnRegister />
   </section>
 )

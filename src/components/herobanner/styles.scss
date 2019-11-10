@@ -1,4 +1,4 @@
-.gallery-gif {
+.herobanner__gallery-gif {
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -6,12 +6,12 @@
   columns: 3;
 }
 
-.gallery-gif img {
+.herobanner__gallery-gif img {
   max-width: 100%;
   margin: 5px;
 }
 
-.herobanner-title {
+.herobanner__title {
   position: absolute;
   left: 0;
   right: 0;

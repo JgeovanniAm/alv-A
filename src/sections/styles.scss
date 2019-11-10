@@ -1,4 +1,5 @@
 .header {
+  overflow: hidden;
   background: rgb(0, 0, 0);
   box-shadow: 0px 5px 10px  #b49655;
   display: flex;
@@ -8,10 +9,6 @@
   align-self: center;
   opacity: .85;
   position: relative;
-}
-
-.header__wrapper-jpg {
-  width: 15%;
 }
 
 .header__wrapper-jpg img {
@@ -24,7 +21,7 @@
   font-size: 2.5rem;
   font-family: 'PT Sans Caption', sans-serif;
   letter-spacing: 20px;
-  margin:  5px 100px 5px 0;
+  margin:  5px 0px 5px 0;
 }
 
 canvas {
@@ -32,11 +29,16 @@ canvas {
   padding: 5px 0;
 }
 
-.canvas {
-  left: 0;
+.header__canvas {
+  left: -10px;
 }
 
-.canvas-second {
-  right: 0;
+.header__canvas--second {
+  right: -10px;
   transform: rotate(180deg)
+}
+
+.main {
+  max-width: 1300px;
+  margin: auto;
 }

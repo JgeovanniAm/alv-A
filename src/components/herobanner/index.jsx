@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom'
 import './styles.scss';
 
 export default () => (
-  <>
-    <div className="gallery-gif">
+  <div className="herobanner">
+    <div className="herobanner__gallery-gif">
       <img src={gif} alt="gif" />
       <img src={gif1} alt="gif" />
       <img src={gif2} alt="gif" />
@@ -22,9 +22,7 @@ export default () => (
       <img src={gif6} alt="gif" />
       <img src={gif7} alt="gif" />
     </div>
-    <h2 className="herobanner-title">hello, this is ALV-A</h2>
-    <Link to="/product" className="btn-products">
-      Products
-    </Link>
-  </>
+    <h2 className="herobanner__title">hello, this is ALV-A</h2>
+    <Link to="/product" className="btn-products">Products</Link>
+  </div>
 )
