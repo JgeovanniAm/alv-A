@@ -12,16 +12,9 @@
 }
 
 .header__wrapper-jpg img {
-  width: 60px;
-  height: 55px;
-}
-
-.header__title {
-  color: #b49655;
-  font-size: 2.5rem;
-  font-family: 'PT Sans Caption', sans-serif;
-  letter-spacing: 20px;
-  margin:  5px 0px 5px 0;
+  max-width: 70px;
+  padding: 10px 0;
+  object-fit: cover;
 }
 
 canvas {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/nav/';
-import logo from '../img/x.jpg';
+import logo from '../img/alva.png';
 import Draw from './canvas';
 import BtnRegister from '../components/register-btn';
 import './styles.scss';
@@ -19,10 +19,11 @@ function drawCanvas(canvas) {
     numbers.push(num);
   }
 
-  const totalNumbers = numbers.filter(numero => numero % 2 === 0);
-  totalNumbers.forEach((x) => {
-    arrayNum.push((Math.random() * 0.5) + 0.05);
-    arrayElement.push(new Draw(0, x, 40, 1, ctx, left, right));
+  numbers.filter(numero =>{
+    if(numero % 2 === 0){
+      arrayNum.push((Math.random() * 0.5) + 0.05);
+      arrayElement.push(new Draw(0, numero, 40, 1, ctx, left, right));
+    }
   });
 
   function IteracionDraw() {
@@ -61,7 +62,6 @@ export default () => (
     <div className="header__wrapper-jpg">
       <img src={logo} alt="logo" />
     </div>
-    <h1 className="header__title">ALV-A</h1>
     <Nav />
     <BtnRegister />
   </section>

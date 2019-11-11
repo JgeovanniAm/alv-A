@@ -10,7 +10,7 @@ class MyDraw {
   }
 
   drawCtx() {
-    this.ctx.fillStyle = 'white';
+    this.ctx.fillStyle = '#b49655';
     this.ctx.fillRect(this.x, this.y, this.w, this.h);
   }
 

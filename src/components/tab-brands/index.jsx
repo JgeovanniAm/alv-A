@@ -1,21 +1,22 @@
 import React from 'react';
 import './styles.scss';
 
-export default () => {
-  //hacer un filter y poner el nombre de marcas que hay en el filtro ejemplo 
-  // shoes hay tal marcas y hacer filtro y meterlo en los tab-brand de los disponibles
+export default ({ result, funcBrand }) => {
+  const extracBrand = result.map(item => item.brand);
+  const brand = [...new Set(extracBrand)];
   return (
     <div className="filter-wrapper__tabs-brands">
       <ul className="filter-wrapper__list-brand">
-        <li className="filter-wrapper__item-brand">
-          <button>nike...</button>
+        <li key="all" className="filter-wrapper__item-brand">
+          <button id="all" onClick={funcBrand}> all </button>
         </li>
-        <li className="filter-wrapper__item-brand">
-          <button>nike...</button>
-        </li>
-        <li className="filter-wrapper__item-brand">
-          <button>nike...</button>
-        </li>
+        {
+          brand.map(brands => (
+            <li key={brands} className="filter-wrapper__item-brand">
+              <button id={brands} onClick={funcBrand}> {brands} </button>
+            </li>
+          ))
+        }
       </ul>
     </div>
   )

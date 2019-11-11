@@ -1,6 +1,6 @@
 .nav {
   padding: 15px;
-  width: 400px;
+  width: 300px;
 }
 
 .nav__list-nav {
@@ -9,6 +9,8 @@
   margin: 0;
   list-style: none;
   padding: 0;
+  align-content: center;
+  align-items: center;
 }
 
 .nav__link {
@@ -29,9 +31,6 @@
   text-transform: uppercase;
 }
 
-.nav__item-font {
-  width: 30px;
-  height: 30px;
-  background-position: center;
-  background-size: cover;
+.car {
+  max-width: 70px;
 }

@@ -15,9 +15,20 @@
 }
 
 .filter-wrapper__item-brand button {
+  width: 80px;
+  padding: 5px;
   background: none; 
   border: 0;
+  border-bottom: 1px solid #b49655;
   color: black;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 13px;
+  cursor: pointer;
+  transition: .9s;
+  outline: none;
+
+  &:hover {
+    border-bottom: 1px solid white;
+    transition: .9s;
+  }
 }
