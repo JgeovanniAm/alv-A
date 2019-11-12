@@ -15,28 +15,28 @@
 }
 
 .herobanner__title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 250px;
-  text-align: center;
-  font-size: 5rem;
-  letter-spacing: 4px;
   font-family: 'PT Sans Caption', sans-serif;
+  font-size: 5rem;
+  left: 0;
+  letter-spacing: 4px;
+  position: absolute;
+  right: 0;
+  text-align: center;
   text-transform: uppercase;
+  top: 250px;
 }
 
 .btn-products {
-  position: absolute;
-  left: 42%;
-  top: 450px;
-  padding: 15px 30px;
   background: rgba(255, 255, 255, 0.522);
-  color: #b6944b;
   border: 2px solid #b49655;
-  font-size: 2.5rem;
-  letter-spacing: 4px;
-  text-decoration: none;
-  font-weight: 700;
   box-shadow: 1px 1px 5px black;
+  color: #b6944b;
+  font-size: 2.5rem;
+  font-weight: 700;
+  left: 42%;
+  letter-spacing: 4px;
+  padding: 15px 30px;
+  position: absolute;
+  text-decoration: none;
+  top: 450px;
 }

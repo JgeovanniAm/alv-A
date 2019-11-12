@@ -8,7 +8,7 @@
         "model": "Air Force",
         "type": "sport",
         "color": "black",
-        "Size": 7,
+        "size": 7,
         "price": 30,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/lsmrgpwofuzamb0zu1kk/air-force-1-gore-tex-shoe-9Dtz9H.jpg",
         "description": "The Nike Air Force 1 GORE-TEX ® retools the classic Air Force 1 with a street-approved design that meets the standards of GORE-TEX ® waterproof technology. It features water-wicking flat laces, a GORE-TEX ® bootie and GORE-TEX ® branding on the heel."
@@ -20,7 +20,7 @@
         "model": "Air Force",
         "type": "sport",
         "color": "yellow",
-        "Size": 7,
+        "size": 7,
         "price": 90,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/ouiiwjilfvbw0qr7jr0r/air-force-1-gore-tex-zapatillas-9Dtz9H.jpg",
         "description": "The Nike Air Force 1 GORE-TEX ® retools the classic Air Force 1 with a street-approved design that meets the standards of GORE-TEX ® waterproof technology. It features water-wicking flat laces, a GORE-TEX ® bootie and GORE-TEX ® branding on the heel."
@@ -32,7 +32,7 @@
         "model": "Air Force",
         "type": "sport",
         "color": "yellow",
-        "Size": 8,
+        "size": 8,
         "price": 100,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/lsmrgpwofuzamb0zu1kk/air-force-1-gore-tex-shoe-9Dtz9H.jpg",
         "description": "The Nike Air Force 1 GORE-TEX ® retools the classic Air Force 1 with a street-approved design that meets the standards of GORE-TEX ® waterproof technology. It features water-wicking flat laces, a GORE-TEX ® bootie and GORE-TEX ® branding on the heel."
@@ -44,7 +44,7 @@
         "model": "Air Force",
         "type": "sport",
         "color": "green",
-        "Size": 8,
+        "size": 8,
         "price": 90,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/kjksasw3l5fqpuecyfnu/air-force-1-gore-tex-shoe-9Dtz9H.jpg",
         "description": "The Nike Air Force 1 GORE-TEX ® retools the classic Air Force 1 with a street-approved design that meets the standards of GORE-TEX ® waterproof technology. It features water-wicking flat laces, a GORE-TEX ® bootie and GORE-TEX ® branding on the heel."
@@ -56,7 +56,7 @@
         "model": "FIGGY",
         "type": "skate",
         "color": "black",
-        "Size": 9,
+        "size": 9,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw7c1d435e/FA18/Footwear/6102000123-715-S-001.png",
         "description": "Flexible Triangle Tread Outsole With Desert Grip, figgy shoes. skate and destroy"
@@ -68,7 +68,7 @@
         "model": "FIGGY",
         "type": "skate",
         "color": "gray",
-        "Size": 8,
+        "size": 8,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwb1de35ea/HO19/6102000123-030-S-001.png",
         "description": "Flexible Triangle Tread Outsole With Desert Grip, figgy shoes. skate and destroy"
@@ -80,7 +80,7 @@
         "model": "FIGGY",
         "type": "skate",
         "color": "gray",
-        "Size": 7,
+        "size": 7,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwb1de35ea/HO19/6102000123-030-S-001.png",
         "description": "Flexible Triangle Tread Outsole With Desert Grip, figgy shoes. skate and destroy"
@@ -92,7 +92,7 @@
         "model": "FIGGY",
         "type": "skate",
         "color": "gray",
-        "Size": 6,
+        "size": 6,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwb1de35ea/HO19/6102000123-030-S-001.png",
         "description": "Flexible Triangle Tread Outsole With Desert Grip, figgy shoes. skate and destroy"
@@ -104,7 +104,7 @@
         "model": "RESERVE",
         "type": "skate",
         "color": "black",
-        "Size": 8,
+        "size": 8,
         "price": 100,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw2d638459/FA19/Footwear/6102000129-536-S-001.png",
         "description": "Chelsea Boot Hybrid With A Deconstructed Upper, Romero shoes"
@@ -116,7 +116,7 @@
         "model": "AMERICANA",
         "type": "skate",
         "color": "black",
-        "Size": 8,
+        "size": 8,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw6ae94584/HO19/6102000125-715-S-001.png",
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
@@ -128,7 +128,7 @@
         "model": "AMERICANA",
         "type": "skate",
         "color": "black",
-        "Size": 7,
+        "size": 7,
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw6ae94584/HO19/6102000125-715-S-001.png",
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
@@ -140,7 +140,7 @@
         "model": "AMERICANA",
         "type": "skate",
         "color": "white",
-        "Size": 8,
+        "size": 8,
         "price": 90,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw56817fb3/FA19/Footwear/6102000125-102-S-001.png",
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
@@ -152,7 +152,7 @@
         "model": "BUSENITZ",
         "type": "skate",
         "color": "black",
-        "Size": 7,
+        "size": 7,
         "price": 90,
         "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/03280d049a214755ad4ea8080081a4cd_9366/Busenitz_Vulc_Shoes_Black_G65824.jpg",
         "description": "Every time pro skater Dennis Busenitz steps onto the streets, he sees an endless playground of opportunity. These signature vulc shoes are tuned to Dennis' specs and offer premium flexibility and board feel. They're made of suede with a comfort collar, plus a reinforced toe and recessed eyelets that hold up to daily riding."
@@ -164,7 +164,7 @@
         "model": "BUSENITZ",
         "type": "skate",
         "color": "black",
-        "Size": 7.5,
+        "size": 7.5,
         "price": 90,
         "url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/03280d049a214755ad4ea8080081a4cd_9366/Busenitz_Vulc_Shoes_Black_G65824.jpg",
         "description": "Every time pro skater Dennis Busenitz steps onto the streets, he sees an endless playground of opportunity. These signature vulc shoes are tuned to Dennis' specs and offer premium flexibility and board feel. They're made of suede with a comfort collar, plus a reinforced toe and recessed eyelets that hold up to daily riding."
@@ -178,7 +178,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "blue",
-        "Size": "M",
+        "size": "M",
         "price": 70,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/p7frvmhofw3khvuclhow/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -190,7 +190,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "blue",
-        "Size": "L",
+        "size": "L",
         "price": 70,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/p7frvmhofw3khvuclhow/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -202,7 +202,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "red",
-        "Size": "L",
+        "size": "L",
         "price": 70,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/htaqbequbxlbdnehwqbm/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -214,7 +214,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "red",
-        "Size": "M",
+        "size": "M",
         "price": 70,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/htaqbequbxlbdnehwqbm/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -226,7 +226,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "red",
-        "Size": "S",
+        "size": "S",
         "price": 70,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/htaqbequbxlbdnehwqbm/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -238,7 +238,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "white",
-        "Size": "L",
+        "size": "L",
         "price": 90,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/vfelrtn9vhbaswktmjh4/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -250,7 +250,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "white",
-        "Size": "M",
+        "size": "M",
         "price": 90,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/vfelrtn9vhbaswktmjh4/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -262,7 +262,7 @@
         "model": "ACG",
         "type": "sport",
         "color": "white",
-        "Size": "S",
+        "size": "S",
         "price": 80,
         "url": "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/vfelrtn9vhbaswktmjh4/acg-camiseta-de-manga-larga-w2Z6cz.jpg",
         "description": "Lasting comfort Solid seams. Classic style. An essential garment that will not go unnoticed."
@@ -274,7 +274,7 @@
         "model": "TRI PURE",
         "type": "skate",
         "color": "gray",
-        "Size": "L",
+        "size": "L",
         "price": 95,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw89d50590/FA18/Apparel/6130002677-080-F-001.png",
         "description": "Woven Patch label, emerica style"
@@ -286,7 +286,7 @@
         "model": "TRI PURE",
         "type": "skate",
         "color": "gray",
-        "Size": "M",
+        "size": "M",
         "price": 90,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw89d50590/FA18/Apparel/6130002677-080-F-001.png",
         "description": "Woven Patch label, emerica style"
@@ -298,7 +298,7 @@
         "model": "TRI PURE",
         "type": "skate",
         "color": "gray",
-        "Size": "S",
+        "size": "S",
         "price": 60,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw89d50590/FA18/Apparel/6130002677-080-F-001.png",
         "description": "Woven Patch label, emerica style"
@@ -310,7 +310,7 @@
         "model": "HOODED",
         "type": "skate",
         "color": "green",
-        "Size": "L",
+        "size": "L",
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw07610630/SP19/Apparel/6130002775-342-F-001.png",
         "description": "80/20 COTTON POLY HOODED SWEATSHIRT"
@@ -322,7 +322,7 @@
         "model": "HOODED",
         "type": "skate",
         "color": "green",
-        "Size": "M",
+        "size": "M",
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw07610630/SP19/Apparel/6130002775-342-F-001.png",
         "description": "80/20 COTTON POLY HOODED SWEATSHIRT"
@@ -334,7 +334,7 @@
         "model": "HOODED",
         "type": "skate",
         "color": "black",
-        "Size": "S",
+        "size": "S",
         "price": 80,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwe838f6ea/SP19/Apparel/6130002775-001-F-001.png",
         "description": "80/20 COTTON POLY HOODED SWEATSHIRT"
@@ -346,7 +346,7 @@
         "model": "HOODED",
         "type": "skate",
         "color": "black",
-        "Size": "L",
+        "size": "L",
         "price": 90,
         "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwe838f6ea/SP19/Apparel/6130002775-001-F-001.png",
         "description": "80/20 COTTON POLY HOODED SWEATSHIRT"
@@ -358,7 +358,7 @@
         "model": "SLEEVE",
         "type": "skate",
         "color": "black",
-        "Size": "L",
+        "size": "L",
         "price": 60,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/PAINT-L-S-TEE_BLACK_LTS419201_BLACK_01_1200x.jpg?v=1572647164",
         "description": "High quality, comfortable, keeps its shape after wash the Paint Long Sleeve T-Shirt features Double-needle stitching in neck, sleeves, and bottom hem for added durability."
@@ -370,7 +370,7 @@
         "model": "SLEEVE",
         "type": "skate",
         "color": "black",
-        "Size": "M",
+        "size": "M",
         "price": 65,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/PAINT-L-S-TEE_BLACK_LTS419201_BLACK_01_1200x.jpg?v=1572647164",
         "description": "High quality, comfortable, keeps its shape after wash the Paint Long Sleeve T-Shirt features Double-needle stitching in neck, sleeves, and bottom hem for added durability."
@@ -382,7 +382,7 @@
         "model": "SLEEVE",
         "type": "skate",
         "color": "yellow",
-        "Size": "S",
+        "size": "S",
         "price": 55,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/PAINT-L-S-TEE_GOLD_LTS419201_GOLD_01_1200x.jpg?v=1572647164",
         "description": "High quality, comfortable, keeps its shape after wash the Paint Long Sleeve T-Shirt features Double-needle stitching in neck, sleeves, and bottom hem for added durability."
@@ -394,7 +394,7 @@
         "model": "SLEEVE",
         "type": "skate",
         "color": "yellow",
-        "Size": "L",
+        "size": "L",
         "price": 70,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/PAINT-L-S-TEE_GOLD_LTS419201_GOLD_01_1200x.jpg?v=1572647164",
         "description": "High quality, comfortable, keeps its shape after wash the Paint Long Sleeve T-Shirt features Double-needle stitching in neck, sleeves, and bottom hem for added durability."
@@ -408,7 +408,7 @@
         "model": "CHOCOLATE",
         "type": "skate",
         "color": "yellow",
-        "Size": "L",
+        "size": "L",
         "price": 100,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/CHOCOLATE-FLAGS-COACHES-JACKET_GOLD_LJ319602_GOLD_01_20_1_1200x.jpg?v=1571711741",
         "description": "Your Classic Coaches Jacket featuring the Lakai x Chocolate Collaboration art."
@@ -420,7 +420,7 @@
         "model": "CHOCOLATE",
         "type": "skate",
         "color": "yellow",
-        "Size": "M",
+        "size": "M",
         "price": 80,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/CHOCOLATE-FLAGS-COACHES-JACKET_GOLD_LJ319602_GOLD_01_20_1_1200x.jpg?v=1571711741",
         "description": "Your Classic Coaches Jacket featuring the Lakai x Chocolate Collaboration art."
@@ -432,7 +432,7 @@
         "model": "CHOCOLATE",
         "type": "skate",
         "color": "yellow",
-        "Size": "S",
+        "size": "S",
         "price": 75,
         "url": "https://cdn.shopify.com/s/files/1/0079/6740/8228/products/CHOCOLATE-FLAGS-COACHES-JACKET_GOLD_LJ319602_GOLD_01_20_1_1200x.jpg?v=1571711741",
         "description": "Your Classic Coaches Jacket featuring the Lakai x Chocolate Collaboration art."
@@ -444,7 +444,7 @@
         "model": "JOHNNY JACKET",
         "type": "skate",
         "color": "blue",
-        "Size": "L",
+        "size": "L",
         "price": 120,
         "url": "https://www.emerica.com/dw/image/v2/ABCH_PRD/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw7f5429c3/FA19/Apparel/6130002790-498-F-001.png?sw=650&sh=650&sm=fit",
         "description": "Cotton Twill Sherpa Collar jacket"
@@ -456,7 +456,7 @@
         "model": "JOHNNY JACKET",
         "type": "skate",
         "color": "Copper",
-        "Size": "L",
+        "size": "L",
         "price": 120,
         "url": "https://www.emerica.com/dw/image/v2/ABCH_PRD/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw08407def/FA19/Apparel/6130002790-249-F-001.png?sw=650&sh=650&sm=fit",
         "description": "Cotton Twill Sherpa Collar jacket"
@@ -468,7 +468,7 @@
         "model": "JOHNNY JACKET",
         "type": "skate",
         "color": "Copper",
-        "Size": "M",
+        "size": "M",
         "price": 110,
         "url": "https://www.emerica.com/dw/image/v2/ABCH_PRD/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw08407def/FA19/Apparel/6130002790-249-F-001.png?sw=650&sh=650&sm=fit",
         "description": "Cotton Twill Sherpa Collar jacket"
@@ -480,7 +480,7 @@
         "model": "BRONSON",
         "type": "skate",
         "color": "CAMO",
-        "Size": "L",
+        "size": "L",
         "price": 80,
         "url": "https://www.emerica.com/dw/image/v2/ABCH_PRD/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwcb6621c1/HO19/6130002889-341-F-001.png?sw=650&sh=650&sm=fit",
         "description": "Coaches Jacket"
@@ -492,7 +492,7 @@
         "model": "BRONSON",
         "type": "skate",
         "color": "CAMO",
-        "Size": "M",
+        "size": "M",
         "price": 75,
         "url": "https://www.emerica.com/dw/image/v2/ABCH_PRD/on/demandware.static/-/Sites-masterCatalog_emerica/default/dwcb6621c1/HO19/6130002889-341-F-001.png?sw=650&sh=650&sm=fit",
         "description": "Coaches Jacket"

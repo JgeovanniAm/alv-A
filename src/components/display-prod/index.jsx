@@ -5,10 +5,10 @@ import Card from '../card/';
 import InfoCard from '../infoCard/'
 import './styles.scss';
 
-// my view of products
+// my view of products.
 export default ({ view }) => {
   const data_Unit = [...mydata.alv_a.shoes, ...mydata.alv_a.sweatshirts, ...mydata.alv_a.jacket];
-  const [typeData, setypeData] = useState([]);
+  const [typeData, setypeData] = useState(data_Unit);
   const [filterBrand, setfilterBrand] = useState([]);
   const [viewBrand, setviewBrand] = useState('all');
   const [Toggle, setToggle] = useState(false);
@@ -19,21 +19,21 @@ export default ({ view }) => {
     else if (view === 'sweatshirts') modelFilter(mydata.alv_a.sweatshirts);
     else if (view === 'shoes') modelFilter(mydata.alv_a.shoes);
     else if (view === 'jacket') modelFilter(mydata.alv_a.jacket);
-    // set view brand
-    setviewBrand('all');
-    // filter models
-    function modelFilter(data) {
-      let bItem = "";
-      const filter = data.filter((item) => {
-        if (bItem === item.model);
-        else {
-          bItem = item.model;
-          return item;
-        }
-      });
-      setypeData(filter);
-    }
   }, [view]);
+
+
+  function modelFilter(data) {
+    let bItem = "";
+    const filter = data.filter((item) => {
+    if (bItem === item.model);
+    else {
+      bItem = item.model;
+      return item;
+      }
+    });
+    setypeData(filter);
+  }
+  
 
   const targetBrand = ({ target }) => {
     const brand = typeData.filter(item => item.brand === target.id);
@@ -43,7 +43,7 @@ export default ({ view }) => {
 
   const targetInfoCard = data => {
     setToggle(!Toggle);
-    setInfoData({item:data, allData: data_Unit})
+    setInfoData({ item: data, allData: data_Unit });
   }
 
   return (
@@ -51,7 +51,7 @@ export default ({ view }) => {
       {
         Toggle &&
         <>
-          <InfoCard closeWindow={()=> setToggle(!Toggle) } data={infoData ? infoData : {}} />
+          <InfoCard closeWindow={() => setToggle(!Toggle)} data={infoData ? infoData : {}} />
         </>
       }
       {
@@ -73,7 +73,7 @@ export default ({ view }) => {
             <TabBrand funcBrand={targetBrand} result={typeData} />
             <div className="wrapper-prod">
               {
-                viewBrand == 'all' ?
+                viewBrand === 'all' ?
                   typeData.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
                   :
                   filterBrand.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)

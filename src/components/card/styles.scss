@@ -1,9 +1,8 @@
 .card {
-  display: inline;
   margin: auto;
-  width: 200px;
-  transition: 1s;
   padding: 20px;
+  transition: 1s;
+  width: 200px;
   
   &:hover {
     box-shadow: 2px 2px 10px black;
@@ -11,8 +10,8 @@
 }
 
 .card__img {
-  object-fit: cover;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .card__title {
@@ -21,17 +20,17 @@
 }
 
 .card__sub-title {
-  opacity: 0.9;
+  font-family: Helvetica,Arial,sans-serif;
   font-size: 12px;
   font-weight: normal;
-  margin: 10px 0;
   letter-spacing: 2px;
-  font-family: Helvetica,Arial,sans-serif;
+  margin: 10px 0;
+  opacity: 0.9;
 }
 
 .card__price {
   color: #b49655;
+  font-family: Helvetica,Arial,sans-serif;
   font-size: 15px;
   margin: 10px 0;
-  font-family: Helvetica,Arial,sans-serif;
 }

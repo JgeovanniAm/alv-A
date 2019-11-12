@@ -1,13 +1,13 @@
 .filter-wrapper__tabs-brands {
-  padding: 0 20px;
   height: 100vh;
+  padding: 0 20px;
   width: 10%;
 }
 
 .filter-wrapper__list-brand {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .filter-wrapper__item-brand {
@@ -15,21 +15,21 @@
 }
 
 .filter-wrapper__item-brand button {
-  width: 80px;
-  padding: 5px;
   background: none; 
-  border: 0;
   border-bottom: 1px solid #b49655;
+  border: 0;
   color: black;
+  cursor: pointer;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 13px;
-  cursor: pointer;
-  transition: .9s;
   outline: none;
+  padding: 5px;
+  transition: .9s;
+  width: 80px;
 
   &:hover {
-    color: #c5a254;
     border-bottom: 1px solid white;
+    color: #c5a254;
     transition: .9s;
   }
 }
