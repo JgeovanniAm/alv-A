@@ -7,7 +7,7 @@ export default () => (
   <>
     <Layout>
       <Main>
-        car
+        video
       </Main>
     </Layout>
   </>

@@ -12,6 +12,9 @@ export default () => (
         <NavLink className="nav__link" activeClassName="nav__link--active" to="/product">products</NavLink>
       </li>
       <li>
+        <NavLink className="nav__link" activeClassName="nav__link--active" to="/video">videos</NavLink>
+      </li>
+      <li>
         <NavLink className="nav__link" activeClassName="nav__link--active" to="/car">
           <img className="car" src={car} alt="car" />
         </NavLink>

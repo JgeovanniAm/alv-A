@@ -1,11 +1,25 @@
 .display-prod {
   display: flex;
-  justify-items: center;
+  align-items: start;
+  padding: 40px 0;
 }
 
 .wrapper-prod {
-  width: 100%;
+  width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.description {
+  width: 30%;
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    font-family: Helvetica,Arial,sans-serif;
+    color: #c5a254;
+    font-size: 15px;
+  }
+}

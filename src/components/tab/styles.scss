@@ -30,8 +30,9 @@
   cursor: pointer;
   font-family: Helvetica,Arial,sans-serif;
   background: none;
-
+  color: #c5a254;
+  font-size: 16px;
   &:active {
-    color: #c5a254;
+    color: black;
   }
 }

@@ -5,6 +5,7 @@ import { useTransition, animated } from 'react-spring';
 import Home from './pages/Home';
 import Products from './pages/product';
 import Car from './pages/car';
+import video from './pages/video';
 import Register from './pages/register';
 import './index.scss';
 
@@ -25,6 +26,7 @@ function App() {
             <Switch location={item} >
               <Route exact path="/" component={Home} />
               <Route path="/product" component={Products} />
+              <Route path="/video" component={video} />
               <Route path="/car" component={Car} />
               <Route path="/register/:status" component={Register} />
             </Switch>

@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles.scss';
 
-export default ({ result }) => {
+export default ({ result, handleClickInfo }) => {
   return (
-    <div className="card">
+    <div id={result} className="card" onClick={()=>{
+      handleClickInfo(result);
+    }} >
       <div className="card__wrapper-img">
         <img className="card__img" src={result.url} alt={result.model} />
       </div>

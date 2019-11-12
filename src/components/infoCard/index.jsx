@@ -1,6 +1,11 @@
 import React from 'react';
 import './styles.scss';
 
-export default ()=>(
-  <h1>infoCard</h1>
-)
+export default ({ data }) => {
+  console.log(data)
+  return (
+    <div>
+      hola
+    </div>
+  )
+}

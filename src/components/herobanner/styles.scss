@@ -1,6 +1,9 @@
+.herobanner {
+  padding: 30px;
+}
+
 .herobanner__gallery-gif {
   position: relative;
-  height: 100vh;
   overflow: hidden;
   z-index: -1;
   columns: 3;
@@ -15,9 +18,9 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 30vh;
+  top: 250px;
   text-align: center;
-  font-size: 4.5rem;
+  font-size: 5rem;
   letter-spacing: 4px;
   font-family: 'PT Sans Caption', sans-serif;
   text-transform: uppercase;
@@ -25,8 +28,8 @@
 
 .btn-products {
   position: absolute;
-  left: 40vw;
-  bottom: 30vh;
+  left: 42%;
+  top: 450px;
   padding: 15px 30px;
   background: rgba(255, 255, 255, 0.522);
   color: #b6944b;
