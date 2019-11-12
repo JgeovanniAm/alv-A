@@ -43,7 +43,7 @@ export default ({ view }) => {
 
   const targetInfoCard = data => {
     setToggle(!Toggle);
-    setInfoData(data)
+    setInfoData({item:data, allData: data_Unit})
   }
 
   return (
@@ -51,7 +51,7 @@ export default ({ view }) => {
       {
         Toggle &&
         <>
-          <InfoCard data={infoData ? infoData : {}} />
+          <InfoCard closeWindow={()=> setToggle(!Toggle) } data={infoData ? infoData : {}} />
         </>
       }
       {
