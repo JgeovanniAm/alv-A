@@ -19,21 +19,22 @@ export default ({ view }) => {
     else if (view === 'sweatshirts') modelFilter(mydata.alv_a.sweatshirts);
     else if (view === 'shoes') modelFilter(mydata.alv_a.shoes);
     else if (view === 'jacket') modelFilter(mydata.alv_a.jacket);
+    setviewBrand('all');
   }, [view]);
 
 
   function modelFilter(data) {
-    let bItem = "";
+    let bItem = '';
     const filter = data.filter((item) => {
-    if (bItem === item.model);
-    else {
-      bItem = item.model;
-      return item;
+      if (bItem === item.model);
+      else {
+        bItem = item.model;
+        return item;
       }
     });
     setypeData(filter);
   }
-  
+
 
   const targetBrand = ({ target }) => {
     const brand = typeData.filter(item => item.brand === target.id);
