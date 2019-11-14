@@ -113,6 +113,18 @@
         "id": 9,
         "brand": "emerica",
         "name": "ROMERO",
+        "model": "RESERVE",
+        "type": "skate",
+        "color": "black",
+        "size": 9,
+        "price": 100,
+        "url": "https://www.emerica.com/on/demandware.static/-/Sites-masterCatalog_emerica/default/dw2d638459/FA19/Footwear/6102000129-536-S-001.png",
+        "description": "Chelsea Boot Hybrid With A Deconstructed Upper, Romero shoes"
+      },
+      {
+        "id": 10,
+        "brand": "emerica",
+        "name": "ROMERO",
         "model": "AMERICANA",
         "type": "skate",
         "color": "black",
@@ -122,7 +134,7 @@
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
       },
       {
-        "id": 10,
+        "id": 11,
         "brand": "emerica",
         "name": "ROMERO",
         "model": "AMERICANA",
@@ -134,7 +146,7 @@
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
       },
       {
-        "id": 11,
+        "id": 12,
         "brand": "emerica",
         "name": "ROMERO",
         "model": "AMERICANA",
@@ -146,7 +158,7 @@
         "description": "Emerica is proud to introduce Leo Romero’s latest shoe The Americana, an updated classic of his first pro model shoe, The Leo back in 2006. The Americana features a G6 Polyurethane Insole in a Cupsole Construction along with a Suede Upper for extra durability all while having a Triangle Tread outsole built and designed to last longer. For a better fit, The Americana includes an integrated tongue strap and heel anchor system."
       },
       {
-        "id": 12,
+        "id": 13,
         "brand": "adidas",
         "name": "BUSENITZ VULC",
         "model": "BUSENITZ",
@@ -158,7 +170,7 @@
         "description": "Every time pro skater Dennis Busenitz steps onto the streets, he sees an endless playground of opportunity. These signature vulc shoes are tuned to Dennis' specs and offer premium flexibility and board feel. They're made of suede with a comfort collar, plus a reinforced toe and recessed eyelets that hold up to daily riding."
       },
       {
-        "id": 13,
+        "id": 14,
         "brand": "adidas",
         "name": "BUSENITZ VULC",
         "model": "BUSENITZ",

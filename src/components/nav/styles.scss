@@ -14,6 +14,7 @@
 }
 
 .nav__link {
+  position: relative;
   color: white;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 13px;
@@ -32,5 +33,17 @@
 }
 
 .car {
-  max-width: 70px;
+  max-width: 90px;
+}
+
+.heart {
+  font-size: 25px;
+  opacity: .8;
+  color: #b49655;
+}
+
+.counter {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
 }

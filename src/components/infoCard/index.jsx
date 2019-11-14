@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import ButtonAdd from '../add-btn/index';
 import './styles.scss';
 
 export default ({ data, closeWindow }) => {
-
   const [data_object, Setdata_object] = useState(data.item)
   const [available_C, Setavailable_C] = useState(null)
   const [available_S, Setavailable_S] = useState(null)
@@ -21,6 +21,7 @@ export default ({ data, closeWindow }) => {
         return item;
       }
     });
+
     const filterSizes = data.allData.filter(item => item.name === data_object.name && item.model === data_object.model);
     const mapSize = filterSizes.map(item => item.size);
     const filterEndSizes = Array.from(new Set(mapSize));
@@ -28,10 +29,27 @@ export default ({ data, closeWindow }) => {
     Setavailable_C(filterEndColor);
   }
 
-  const actionColorbtn = (item) => {
+  const actionColorbtn = item => {
     Setdata_object(item)
   }
-  console.log(available_S)
+
+  const activeSize = ({ target }) => {
+    target.style.background = '#b49655';
+    target.style.color = 'white';
+    setClassState()
+    if (target) {
+      Setdata_object({ ...data_object, size: target.innerHTML })
+    }
+  }
+
+  const setClassState = () => {
+    const btn = document.querySelectorAll('.info-card__btn-sizes');
+    btn.forEach(element => {
+      element.style.background = 'white';
+      element.style.color = '#b49655';
+    });
+  }
+
   return (
     <>
       {available_C && available_S ?
@@ -58,12 +76,14 @@ export default ({ data, closeWindow }) => {
               <h3 className="info-card__model">sizes</h3>
               {
                 available_S.map((item, index) => (
-                  <button key={index} className="info-card__btn-sizes" >
+                  <button key={index} onClick={activeSize} className="info-card__btn-sizes" >
                     {item}
                   </button>
                 ))
               }
             </div>
+            <ButtonAdd Card={data_object} typeBtn="car" inner="add to bag" />
+            <ButtonAdd Card={data_object} typeBtn="favourite" inner="favourite ♥" />
           </div>
           <button onClick={closeWindow} className="info-card__come-back">comeback</button>
         </div>

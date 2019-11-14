@@ -11,6 +11,7 @@ export default () => {
   <>
     <Layout>
       <Main>
+        favorite
         {JSON.stringify(cardBag)}
       </Main>
     </Layout>
