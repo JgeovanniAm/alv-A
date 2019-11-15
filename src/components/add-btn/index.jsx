@@ -8,7 +8,6 @@ export default ({ typeBtn, inner, Card }) => {
   const handleClick = ({ target }) => {
     if (Card && target.id){
       addCarFunc(Card, target.id);
-      console.log(target.id)
       alert(`have been add a new article to the${inner}`)
     }
     else alert('seleted the options of sizes');

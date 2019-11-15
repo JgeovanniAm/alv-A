@@ -1,0 +1,61 @@
+.products-car {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.wrapper-products{
+  width: 80%;
+  margin-right: 20px;
+  h1{
+    color: #c5a254;
+    font-family: 'PT Sans Caption', sans-serif;
+  }
+}
+
+.summary {
+  display: grid;
+  padding: 50px;
+  align-content: center;
+  align-items: center;
+  grid-template-areas: "title title" 
+                      "number total"  
+                      "btn btn"  ;
+  width: 20%;
+
+  button {
+    grid-area: btn;
+    border: 1px #c5a254 solid;
+    border-radius: 10px;
+    color: #c5a254;
+    font-size: 17px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.summary__title,
+.summary__summary {
+  color: #c5a254;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  opacity: .9;
+  text-align: right;
+  grid-area: total;
+}
+
+.summary__title {
+  font-size: 30px;
+  grid-area: title;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.summary__total {
+  color: #254d0a;
+  text-align: right;
+  grid-area: number;
+}

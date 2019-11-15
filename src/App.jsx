@@ -21,28 +21,29 @@ function App() {
   });
 
   // context data car and favorite
-
   const [cardBag, setCardBag] = useState([]);
   const [favorite, setFavorite] = useState([]);
-
+  // value context to my provider
   const valueContext = {
     cardBag: cardBag,
     favorite: favorite,
-    addCarFunc: funcCar,
+    addCarFunc: addCar,
     removeCard: removeCard
   }
 
-  function funcCar(object, statebtn) {
+  function addCar(object, statebtn) {
     if (statebtn === 'car') setCardBag([...cardBag, object]);
-    else if (statebtn === 'favourite') setFavorite({ ...favorite, object });
+    else if (statebtn === 'favourite') setFavorite([...favorite, object ])
   }
 
   function removeCard(object, statebtn) {
-    if (statebtn == 'bag') {
-      const objectFound = cardBag.findIndex(x => x.id === object.id);
-      cardBag.splice(objectFound, 1);
-      setCardBag([...cardBag]);
-    }
+    let DATA;
+    if (statebtn == 'bag') DATA = cardBag;
+    else if(statebtn == 'favorite') DATA = favorite;
+
+    const objectFound = DATA.findIndex(x => x.id === object.id);
+    DATA.splice(objectFound, 1);
+    setCardBag([...DATA]);
   }
 
   return (
@@ -81,7 +82,6 @@ function App() {
                   <Register {...props} />
                 </AlvProvider>
               )} />
-
             </Switch>
           </animated.div>
         ))
