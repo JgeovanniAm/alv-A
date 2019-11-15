@@ -6,7 +6,6 @@ import './styles.scss';
 
 export default () => {
   const { cardBag }  = useContext(storeContext);
-  console.log(cardBag)
   return (
     <nav className="nav">
       <ul className="nav__list-nav">

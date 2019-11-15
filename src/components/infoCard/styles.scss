@@ -6,12 +6,11 @@
   height: 100vh;
   justify-content: space-around;
   left: 0;
-  position: fixed;
+  position: absolute;
   right: 0;
-  top: 0;
+  top: 80px;
   width: 100%;
   z-index: 1;
-  overflow: hidden;
 }
 
 .info-card__wrapper-img{
@@ -78,5 +77,20 @@
   margin: 10px 10px;
   padding:10px;
   font-size: 15px;
-  background: none;
+}
+
+.info-card__btn-sizes--active {
+  color: white;
+  background: #c5a254;
+  margin: 10px 10px;
+  padding:10px;
+  font-size: 15px;
+}
+
+.info-card__come-back {
+  border: 1px #c5a254 solid;
+  border-radius: 22px;
+  font-size: 17px;
+  padding: 15px;
+  color: #c5a254;
 }

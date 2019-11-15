@@ -29,16 +29,20 @@ function App() {
     cardBag: cardBag,
     favorite: favorite,
     addCarFunc: funcCar,
+    removeCard: removeCard
   }
 
   function funcCar(object, statebtn) {
     if (statebtn === 'car') setCardBag([...cardBag, object]);
-    else if(statebtn === 'favourite') setFavorite({...favorite, object});
-    // else {
-    //   const objectFound = cardBag.findIndex(x => x.id === object.id);
-    //   cardBag.splice(objectFound, 1);
-    //   setCardBag([...cardBag]);
-    // }
+    else if (statebtn === 'favourite') setFavorite({ ...favorite, object });
+  }
+
+  function removeCard(object, statebtn) {
+    if (statebtn == 'bag') {
+      const objectFound = cardBag.findIndex(x => x.id === object.id);
+      cardBag.splice(objectFound, 1);
+      setCardBag([...cardBag]);
+    }
   }
 
   return (
@@ -72,11 +76,12 @@ function App() {
                   <Favourite />
                 </AlvProvider>
               )} />
-              <Route path="/register/:status" render={() => (
+              <Route path="/register/:status" render={(props) => (
                 <AlvProvider value={valueContext} >
-                  <Register />
+                  <Register {...props} />
                 </AlvProvider>
               )} />
+
             </Switch>
           </animated.div>
         ))

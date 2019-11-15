@@ -1,18 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import Layout from '../layout/';
 import Main from '../sections/main';
-import storeContext from '../settings/context';
+import CardSelected from '../components/cardSelected/';
 import './styles.scss';
 
-export default () => { 
-  const { cardBag } = useContext(storeContext);
-  console.log(cardBag)
-  return(
+export default () => (
   <>
     <Layout>
       <Main>
-        {JSON.stringify(cardBag)}
+        <CardSelected />
       </Main>
     </Layout>
   </>
-)}
+)

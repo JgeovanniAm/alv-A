@@ -23,7 +23,7 @@ export default ({ view }) => {
   }, [view]);
 
 
-  function modelFilter(data) {
+  const modelFilter = data => {
     let bItem = '';
     const filter = data.filter((item) => {
       if (bItem === item.model);
@@ -46,6 +46,7 @@ export default ({ view }) => {
     setToggle(!Toggle);
     setInfoData({ item: data, allData: data_Unit });
   }
+
 
   return (
     <section className="display-prod">

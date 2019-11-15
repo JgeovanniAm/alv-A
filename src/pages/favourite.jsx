@@ -5,14 +5,14 @@ import storeContext from '../settings/context';
 import './styles.scss';
 
 export default () => { 
-  const { cardBag } = useContext(storeContext);
-  console.log(cardBag)
+  const { favorite } = useContext(storeContext);
+  console.log(favorite)
   return(
   <>
     <Layout>
       <Main>
         favorite
-        {JSON.stringify(cardBag)}
+        {JSON.stringify(favorite)}
       </Main>
     </Layout>
   </>
