@@ -62,6 +62,11 @@ export default ({ data, closeWindow }) => {
             <img className="info-card__img" src={data_object.url} alt="hola" />
           </div>
           <div className="info-card__wrapper-txt">
+            <button
+              onClick={closeWindow}
+              className="info-card__come-back">
+              comeback
+            </button>
             <h2 className="info-card__name">{data_object.name} </h2>
             <h3 className="info-card__model">{data_object.model} </h3>
             <h3 className="info-card__brand">{data_object.brand} </h3>
@@ -87,9 +92,6 @@ export default ({ data, closeWindow }) => {
             <ButtonAdd Card={validator ? data_object : null} typeBtn="car" inner="add to bag" />
             <ButtonAdd Card={validator ? data_object : null} typeBtn="favourite" inner="favourite ♥" />
           </div>
-          <button
-            onClick={closeWindow}
-            className="info-card__come-back">comeback</button>
         </div>
         :
         <p>no se cargó compa</p>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TabBrand from '../tab-brands/';
 import mydata from '../../settings/data/provider.json';
 import Card from '../card/';
-import InfoCard from '../infoCard/'
+import InfoCard from '../infoCard/';
 import './styles.scss';
 
 // my view of products.

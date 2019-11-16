@@ -1,9 +1,7 @@
 .info-card {
   align-items: center;
   background: white;
-  bottom: 0;
   display: flex;
-  height: 100vh;
   justify-content: space-around;
   left: 0;
   position: absolute;
@@ -27,7 +25,7 @@
 
 .info-card__wrapper-txt {
   padding: 20px;
-  position: relative;
+  //position: relative;
   width: 30%;
 }
 
@@ -52,12 +50,6 @@
   font-size: 20px;
 }
 
-.info-card__come-back {
-  position: absolute;
-  right: 60px;
-  top: 40px;
-}
-
 .info-card__btn-color {
   background: none;
   border: 0;
@@ -65,7 +57,7 @@
   margin-bottom: 10px;
   margin-right: 10px;
   padding: 0;
-  width: 120px;
+  width: 100px;
   img {
     max-width: 100%;
   }
@@ -77,6 +69,7 @@
   margin: 10px 10px;
   padding:10px;
   font-size: 15px;
+  background: none;
 }
 
 .info-card__btn-sizes--active {
@@ -93,4 +86,8 @@
   font-size: 17px;
   padding: 15px;
   color: #c5a254;
+  position: relative;
+  background: none;
+  right: -210px;
+  margin-bottom: 30px; 
 }

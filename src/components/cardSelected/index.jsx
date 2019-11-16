@@ -8,13 +8,10 @@ export default ({ item, func, id }) => (
     </div>
     <div className="wrapper-article-select__info">
       <h2 className="wrapper-article-select__name">{item.name}</h2>
-      <h3>{item.model}</h3>
       <h3>{item.brand}</h3>
       <h3>Size: {item.size}</h3>
       <span className="wrapper-article-select__name">${item.price}</span>
-    </div>
-    <div className="wrapper-article-select__controls">
-      <button onClick={({ target }) => func(item, target.id)} id={id} >x</button>
+      <button className="wrapper-article-select__btn" onClick={({ target }) => func(item, target.id)} id={id} >Eliminar</button>
     </div>
   </div>
 )
