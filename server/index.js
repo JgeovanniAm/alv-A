@@ -1,27 +1,20 @@
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config({ path: '../.env' });
 }
-
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
-console.log(stripeSecretKey);
 const cors = require('cors');
 const express = require('express');
+const routes = require('./routes/index');
+const bodyParser = require('body-parser');
 const app = express();
-app.use(express.json());
+app.use(bodyParser.json());
 app.use(cors());
+app.use('/', routes);
 
-const stripe = require('stripe')(stripeSecretKey);
-const uuid = require('uuid/v4');
+app.set('port', process.env.PORT || 5000);
 
-app.get('/', (req, res) => {
-  res.send('hola alva')
-})
+app.listen(app.get('port'), () => {
+  console.log('runing 5000');
+});
 
-app.post('/checkout', (req, res) => {
-  console.log(req.body);
-  res.send(req.body)
-})
-
-
-app.listen(4000);
-
+module.exports.stripeSecretKey = stripeSecretKey;

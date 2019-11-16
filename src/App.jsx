@@ -33,17 +33,20 @@ function App() {
 
   function addCar(object, statebtn) {
     if (statebtn === 'car') setCardBag([...cardBag, object]);
-    else if (statebtn === 'favourite') setFavorite([...favorite, object ])
+    else if (statebtn === 'favourite') setFavorite([...favorite, object])
   }
 
   function removeCard(object, statebtn) {
-    let DATA;
-    if (statebtn == 'bag') DATA = cardBag;
-    else if(statebtn == 'favorite') DATA = favorite;
-
-    const objectFound = DATA.findIndex(x => x.id === object.id);
-    DATA.splice(objectFound, 1);
-    setCardBag([...DATA]);
+    if (statebtn == 'bag') {
+      const objectFound = cardBag.findIndex(x => x.id === object.id);
+      cardBag.splice(objectFound, 1);
+      setCardBag([...cardBag]);
+    }
+    else if (statebtn == 'favorite'){
+      const objectFound = favorite.findIndex(x => x.id === object.id);
+      favorite.splice(objectFound, 1);
+      setFavorite([...favorite]);
+    }
   }
 
   return (

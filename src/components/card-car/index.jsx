@@ -14,14 +14,27 @@ export default () => {
   }, [cardBag]);
 
   const handleToken = (token) => {
-    fetch('http://localhost:4000/checkout', {
+    fetch('http://localhost:5000/checkout', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify({
         token: token,
         product: cardBag,
       })
-    });
+    }).then(
+      response => {
+        console.log(response);
+        return response.json()
+      }
+    ).then(
+      data => {
+        console.log(data);
+      }
+    ).catch(
+      err => {
+        console.log(err);
+      }
+    )
   }
 
   // direcion de envio
