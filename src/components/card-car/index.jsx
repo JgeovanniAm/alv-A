@@ -14,7 +14,7 @@ export default () => {
   }, [cardBag]);
 
   const handleToken = (token) => {
-    fetch('http://localhost:5000/checkout', {
+    fetch('https://alva-store.herokuapp.com/checkout', {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
       body: JSON.stringify({
