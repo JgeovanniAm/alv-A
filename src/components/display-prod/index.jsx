@@ -51,36 +51,37 @@ export default ({ view }) => {
   return (
     <section className="display-prod">
       {
-        Toggle &&
-        <>
+        Toggle ?
           <InfoCard closeWindow={() => setToggle(!Toggle)} data={infoData ? infoData : {}} />
-        </>
-      }
-      {
-        view === 'all' ?
-          <>
-            <div className="description">
-              <img src="https://static.super-shop.com/849340-w1920-emerica-tshirt-stay-gold-circle-grey-heather.jpg" alt="skate" />
-              <p>is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area.</p>
-              <img src="https://static.super-shop.com/849342-w1920-emerica-tshirt-stay-gold-circle-grey-heather.jpg" alt="skate" />
-            </div>
-            <div className="wrapper-prod">
-              {
-                typeData.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
-              }
-            </div>
-          </>
           :
           <>
-            <TabBrand funcBrand={targetBrand} result={typeData} />
-            <div className="wrapper-prod">
-              {
-                viewBrand === 'all' ?
-                  typeData.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
-                  :
-                  filterBrand.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
-              }
-            </div>
+            {
+              view === 'all' ?
+                <>
+                  <div className="description">
+                    <img src="https://static.super-shop.com/849340-w1920-emerica-tshirt-stay-gold-circle-grey-heather.jpg" alt="skate" />
+                    <p>is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area.</p>
+                    <img src="https://static.super-shop.com/849342-w1920-emerica-tshirt-stay-gold-circle-grey-heather.jpg" alt="skate" />
+                  </div>
+                  <div className="wrapper-prod">
+                    {
+                      typeData.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
+                    }
+                  </div>
+                </>
+                :
+                <>
+                  <TabBrand funcBrand={targetBrand} result={typeData} />
+                  <div className="wrapper-prod">
+                    {
+                      viewBrand === 'all' ?
+                        typeData.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
+                        :
+                        filterBrand.map((item, index) => <Card handleClickInfo={targetInfoCard} key={index} result={item} />)
+                    }
+                  </div>
+                </>
+            }
           </>
       }
     </section>

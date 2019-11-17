@@ -59,7 +59,6 @@ export default () => {
             <span className="summary__total subtotal">${total}</span>
             <span className="summary__total total">${total}</span>
             <span className="summary__total discount">0%</span>
-            <button >checkout</button>
             <StripeCheckout
               stripeKey="pk_test_ozn787iFjexzaCAmwgYTxged002GSdJAKu"
               token={handleToken}

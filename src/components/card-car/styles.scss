@@ -11,6 +11,7 @@
 .wrapper-products{
   width: 70%;
   margin-right: 20px;
+  
   h1{
     color: #c5a254;
     font-family: 'PT Sans Caption', sans-serif;
@@ -32,17 +33,9 @@
                       "btn btn"  ;
   width: 30%;
 
-  button {
+  .StripeCheckout {
     grid-area: btn;
-    border: 1px #c5a254 solid;
-    border-radius: 10px;
-    color: white;
-    font-size: 17px;
-    padding: 10px;
-    display: block;
-    width: 100%;
-    background: #c5a254;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
   h2 {

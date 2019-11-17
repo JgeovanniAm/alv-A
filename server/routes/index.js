@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 const router = express.Router();
 //const stripe = require('stripe')(stripeSecretKey);
 //const stripeSecretKey = require('../index');
-//https://stripe.com/docs/connect/account-tokens
+//https://stripe.com/docs/connect/account-tokens;
 
 router.post('/checkout', async (req, res) => {
   console.log('method post JAJAJA');
@@ -50,7 +50,6 @@ function processEmail(data) {
     text: JSON.stringify(data)
   }
 
-  console.log(object)
   trasnporEmail(transporter, object);
 }
 
@@ -61,5 +60,4 @@ function trasnporEmail(transporter, object) {
     transporter.close();
   });
 }
-
 module.exports = router;
