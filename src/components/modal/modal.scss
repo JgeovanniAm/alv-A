@@ -1,0 +1,31 @@
+.modal {
+  background: black;
+  position: absolute;
+  top: 10%;
+  height: 700px;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  color: white;
+  align-items: center;
+  left: 20%;
+  z-index: 1;
+  opacity: .8;
+  flex-direction: column;
+
+  a {
+    background: rgba(0, 0, 0, 0.837);
+  display: grid;
+  padding: 20px 30px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  grid-template-areas: "title title" 
+                      "subtotal subnumber"  
+                      "discount disnumber"
+                      "total number"
+                      "btn btn"  ;
+  width: 30%;
+  }
+}

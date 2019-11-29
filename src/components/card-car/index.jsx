@@ -1,12 +1,15 @@
 import React, { useContext, useState, useEffect } from 'react';
 import StripeCheckout from 'react-stripe-checkout';
+import { Link } from 'react-router-dom';
 import storeContext from '../../settings/context';
+import Modal from '../modal';
 import Card from '../cardSelected/';
 import './styles.scss';
 
 export default () => {
-  const { cardBag, removeCard } = useContext(storeContext);
+  const { cardBag, clearBag, removeCard } = useContext(storeContext);
   const [total, setTotal] = useState(0);
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     const priceElement = cardBag.map((item) => item.price);
@@ -16,21 +19,21 @@ export default () => {
   const handleToken = (token) => {
     fetch('https://alva-store.herokuapp.com/checkout', {
       method: 'POST',
-      headers: {'Content-Type':'application/json'},
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         token: token,
         product: cardBag,
       })
     }).then(
       response => {
+        setToggle(true);
         console.log(response);
         return response.json()
       }
-    ).then(
-      data => {
-        console.log(data);
-      }
-    ).catch(
+    ).then(result => {
+      console.log(result)
+      if(result) clearBag();
+    }).catch(
       err => {
         console.log(err);
       }
@@ -66,6 +69,20 @@ export default () => {
               shippingAddress
               amount={total * 100}
             />
+            {
+              toggle &&
+              <Modal>
+                <button
+                  onClick={() => {
+                    setToggle(false);
+                  }}
+                  className="info-card__come-back">
+                  comeback
+                </button>
+                <h1>payment success</h1>
+                <Link className="addCar" to="/products">products</Link>
+              </Modal>
+            }
           </div>
         </div>
         :

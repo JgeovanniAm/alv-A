@@ -49,6 +49,10 @@ function App() {
     }
   }
 
+  function clearBag(){
+    cardBag.splice(0, cardBag.length)
+  }
+
   return (
     <>
       {
