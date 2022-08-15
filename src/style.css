@@ -55,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+h2, h3, h4 {
+  font-family: futura;
+}
+
 section {
   position: relative;
 }
@@ -199,7 +203,6 @@ section {
   font-weight: bold;
   font-family: HelveticaNeue-CondensedBlack;
   text-transform: uppercase;
-  letter-spacing: 2px;
   display: none;
   position: relative;
 }
@@ -251,8 +254,6 @@ nav {
   visibility: hidden;
   transition: 0.6s ease-in-out;
 }
-
-
 
 nav.active {
   top: 0;
@@ -338,15 +339,14 @@ nav .nav-logo {
   bottom: 0;
 }
 
-nav h2 {
+nav p {
   position: absolute;
   top: 0;
   right: 20px;
   margin-top: 20px;
   font-family: futura;
   color: white;
-  font-size: 44px;
-  letter-spacing: 1px;
+  font-size: 36px;
 }
 
 nav ul li a:after {
@@ -471,11 +471,11 @@ nav ul li a div {
   left: 1.5px;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 5px;
   font-family: HelveticaNeue-UltraLight;
   right: 1.5px;
   top: 1px;
   bottom: 1px;
+  padding: 0 10px;
   font-size: 18px;
   clip-path: polygon(8% 0, 100% 0, 93% 100%, 0% 100%);
   display: flex;
@@ -605,7 +605,6 @@ nav ul li a div {
   color: white;
   text-transform: uppercase;
   font-size: 48px;
-  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -776,9 +775,9 @@ nav ul li a div {
   text-align: center;
   color: white;
   font-size: 42px;
-  letter-spacing: 5px;
   text-transform: uppercase;
   padding-bottom: 32px;
+  font-family: futura;
 }
 
 .projects-title-firstchunck {
@@ -814,7 +813,6 @@ nav ul li a div {
 .shape-sharp-box .shape-sharp-box-tile {
   color: white;
   font-size: 24px;
-  letter-spacing: 5px;
   padding-bottom: 10px;
   font-family: HelveticaNeue-UltraLight;
   margin: 0;
@@ -1137,7 +1135,7 @@ nav ul li a div {
   height: 45px;
   width: 60px;
   position: absolute;
-  bottom: 0;
+  bottom: 1.5px;
 }
 
 .sharp-btn .lines-right {
@@ -1145,20 +1143,22 @@ nav ul li a div {
   height: 45px;
   width: 60px;
   position: absolute;
-  bottom: 0;
+  bottom: 1.5px;
   right: 0;
   clip-path: polygon(54% 0, 100% 100%, 96% 100%);
 }
 
-.sharp-btn button {
+.sharp-btn div {
   background: none;
   border: none;
   font-size: 22px;
-  padding: 15px 35px;
-  border-bottom: 1px solid white;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1.5px solid white;
   color: white;
   font-family: futura;
   text-transform: uppercase;
+  width: 240px;
 }
 
 .sharp-group-btn {
@@ -1172,23 +1172,24 @@ nav ul li a div {
 }
 
 .second {
-  margin-top: -40px;
+  margin-top: -30px;
   z-index: 2;
 }
 
 .third {
   z-index: 1;
-  margin-top: -65px;
+  margin-top: -10px;
 }
 
-.second button {
-  padding: 15px 60px;
+.second div {
   color: black;
+  width: 280px;
 }
 
-.third button {
+.third div {
   color: black;
-  padding: 15px 110px;
+  padding: 0;
+  width: 320px;
 }
 
 .contact .scroll-down {
@@ -1220,25 +1221,26 @@ nav ul li a div {
     width: 60px;
   }
 
-  .sharp-btn button {
+  .sharp-btn div {
     font-size: 32px;
-    padding: 15px 50px;
+    width: 380px;
+    padding: 10px 0;
   }
 
   .second {
-    margin-top: -50px;
+    margin-top: -40px;
   }
 
   .third {
-    margin-top: -50px;
+    margin-top: -40px;
   }
 
-  .second button {
-    padding: 15px 80px;
+  .second div {
+    width: 440px;
   }
 
-  .third button {
-    padding: 15px 110px;
+  .third div {
+    width: 490px;
   }
 }
 
@@ -1250,7 +1252,6 @@ footer a {
   font-size: 18px;
   font-weight: bold;
   font-family: HelveticaNeue-UltraLight;
-  letter-spacing: 2px;
   opacity: .7;
 }
 
