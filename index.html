@@ -1,29 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>ALVA</title>
-  <link rel="stylesheet" href="./src/style.css">
+  <link rel="icon" type="image/x-icon" href="./src/img/alva.ico">
+  <meta name="description" content="ALVA Creative">
+  <link rel="stylesheet" href="./src/style-min.css">
   <script defer src="./src/script.js"></script>
 </head>
-
 <body>
-  <div class="container">
-    <header>
+  <div>
+    <header class="container no-padding">
       <section class="intro">
-        <nav>
+        <div class="head-bar">
           <button class="nav-menu-btn">
             <span class="tri "></span>
-            <span class="tri tri--invert "></span>
+            <span class="tri tri--invert"></span>
           </button>
-          <img class="nav-logo" src="https://mir-s3-cdn-cf.behance.net/user/115/cae4c7463742597.60ac3311be1b4.jpg"
+          <img style="max-width: 100px;" class="nav-logo" src="./src/img/alva.png" alt="logo">
+          <a class="contact-link" href="#">contacto
+          </a>
+        </div>
+        <!-- NAVIGATION -->
+        <nav>
+          <h2>MENU</h2>
+          <img style="max-width: 100px;" class="nav-logo u-showForLargeUp" src="./src/img/alva.png"
             alt="">
-          <a class="contact-link" href="#">contacto</a>
+          <ul>
+            <li>
+              <a href="#alva">
+                <div>
+                  ALVA
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#proyectos">
+                <div>
+                  PROYECTOS
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#contacto">
+                <div>
+                  CONTACTO
+                </div>
+              </a>
+            </li>
+          </ul>
+          <div class="social-media">
+            <a href="#"><img  loading="lazy" class="insta" src="./src/img/insta.svg" alt=""></a>
+            <a href="#"><img loading="lazy" class="behance" src="./src/img/behance.svg" alt=""></a>
+            <a href="#"><img loading="lazy" class="whatssapp" src="./src/img/whatsapp.svg" alt=""></a>
+          </div>
         </nav>
+        <!-- NAVIGATION -->
+
         <!--SHAPE INTRO ANIMATION -->
         <div class="shape-intro">
           <div class="shape">
@@ -59,9 +94,9 @@
         </div>
       </section>
     </header>
-    <main>
+    <main class="container">
       <!--ABOUT-->
-      <section class="about">
+      <section id="alva" class="about">
         <h2 class="about-title">
           <span class="about-title-firstchunck">michael</span>
           <br aria-hidden="true">
@@ -96,7 +131,7 @@
       </section>
       <!--ABOUT-->
       <!--PROJECTS-->
-      <section class="projects">
+      <section id="proyectos" class="projects">
         <span class="project-line"></span>
         <h2 class="projects-title">
           <span class="projects-title-firstchunck">proyectos</span>
@@ -126,47 +161,73 @@
 
           <div class="project-item">
             <div class="shape-sharp-box">
-              <h2 class="shape-sharp-box-tile">publicidad</h2>
-            </div>
-            <div class="project-item-info">
-              <h3 class="project-item-about">
-                Colección de Temporada
-              </h3>
-              <h4 class="project-item-name">
-                Punto Americano
-              </h4>
-              <div class="project-item-content">
-                <div class="wrap-img">
-                  <img style="max-width: 100%" src="./src/img/camaleon/web.jpg" alt="">
-                </div>
-                <div class="project-item-content-links">
-                  <a class="view-more" href="#">ver mas</a>
-                  <a class="behance" href="#"><img src="" alt=""></a>
-                  <img class="logo" src="#" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-item">
-            <div class="shape-sharp-box">
               <h2 class="shape-sharp-box-tile">M&R</h2>
             </div>
-            <div class="project-item-info">
+            <div class="project-item-info myr">
               <h3 class="project-item-about">
-                Colección de Temporada
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Diseño de identidad
               </h3>
               <h4 class="project-item-name">
-                Punto Americano
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Cartago, CR
               </h4>
               <div class="project-item-content">
                 <div class="wrap-img">
-                  <img style="max-width: 100%" src="./src/img/camaleon/web.jpg" alt="">
+                  <img style="max-width: 100%" src="./src/img/myr/myrbanner-min.jpg" alt="">
                 </div>
                 <div class="project-item-content-links">
                   <a class="view-more" href="#">ver mas</a>
-                  <a class="behance" href="#"><img src="" alt=""></a>
-                  <img class="logo" src="#" alt="">
+                  <img class="logo" src="./src/img/myr/logo.svg" alt="">
+                  <a class="behance" href="#"><img src="./src/img/behance.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="shape-sharp-box">
+              <h2 class="shape-sharp-box-tile">CAMALEON</h2>
+            </div>
+            <div class="project-item-info camaleon">
+              <h3 class="project-item-about">
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Diseño de identidad
+              </h3>
+              <h4 class="project-item-name">
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Productora Nacional
+              </h4>
+              <div class="project-item-content">
+                <div class="wrap-img wrap-img-camaleon" style="padding-bottom: 0;">
+                  <img loading="lazy" style="max-width: 100%" src="./src/img/camaleon/web-min.jpg" alt="">
+                </div>
+                <div class="project-item-content-links">
+                  <a class="view-more" href="#">ver mas</a>
+                  <img class="logo" src="./src/img/camaleon/logo.svg" alt="">
+                  <a class="behance" href="#"><img src="./src/img/behance.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="shape-sharp-box">
+              <h2 class="shape-sharp-box-tile">PUBLICIDAD</h2>
+            </div>
+            <div class="project-item-info punto">
+              <h3 class="project-item-about">
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Colección de Temporada
+              </h3>
+              <h4 class="project-item-name">
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Punto Americano
+              </h4>
+              <div class="project-item-content">
+                <div class="wrap-img u-showForLargeUp">
+                  <img style="max-width: 100%" src="./src/img/projo/banner-min.jpg" alt="">
+                </div>
+                <div class="wrap-img u-hideForLargeUp">
+                  <img style="max-width: 100%" src="./src/img/projo/banner-2-min.jpg" alt="">
+                </div>
+                <div class="project-item-content-links">
+                  <a class="view-more" href="#">ver mas</a>
+                  <a class="behance" href="#"><img src="./src/img/behance.svg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -178,19 +239,18 @@
             </div>
             <div class="project-item-info">
               <h3 class="project-item-about">
-                Colección de Temporada
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Contenido para Redes S
               </h3>
               <h4 class="project-item-name">
-                Punto Americano
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Municipalidad de Desamparados
               </h4>
               <div class="project-item-content">
                 <div class="wrap-img">
-                  <img style="max-width: 100%" src="./src/img/camaleon/web.jpg" alt="">
+                  <img style="max-width: 100%" src="./src/img/infogra/inforbanner-min.jpg" alt="">
                 </div>
                 <div class="project-item-content-links">
                   <a class="view-more" href="#">ver mas</a>
-                  <a class="behance" href="#"><img src="" alt=""></a>
-                  <img class="logo" src="#" alt="">
+                  <a class="behance" href="#"><img src="./src/img/behance.svg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -198,35 +258,36 @@
 
           <div class="project-item">
             <div class="shape-sharp-box">
-              <h2 class="shape-sharp-box-tile">INFOGRAFÍA</h2>
+              <h2 class="shape-sharp-box-tile"> ANUARIO</h2>
             </div>
             <div class="project-item-info">
               <h3 class="project-item-about">
-                Colección de Temporada
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Diseño y diagramacion
               </h3>
               <h4 class="project-item-name">
-                Punto Americano
+                <span><img class="arrow" src="./src/img/arrow.svg" alt=""></span> Centro de Tecnología y Artes Visuales
               </h4>
               <div class="project-item-content">
                 <div class="wrap-img">
-                  <img style="max-width: 100%" src="./src/img/camaleon/web.jpg" alt="">
+                  <img style="max-width: 100%" src="./src/img/cetav/cetavbanner-min.jpg" alt="">
                 </div>
                 <div class="project-item-content-links">
                   <a class="view-more" href="#">ver mas</a>
-                  <a class="behance" href="#"><img src="" alt=""></a>
-                  <img class="logo" src="#" alt="">
+                  <a href="#"><img class="logo" src="./src/img/cetav/logo.svg" alt=""></a>
+                  <a class="behance" href="#"><img src="./src/img/behance.svg" alt=""></a>
                 </div>
               </div>
             </div>
           </div>
+
 
         </div>
         <!-- LIST PROJECTS  -->
       </section>
       <!--PROJECTS-->
-      <section class="contact">
+      <section id="contacto" class="contact">
         <h2 class="contact-title">
-          COMUNICATE
+          <span class="figure"> COMUNICATE</span>
         </h2>
         <p class="contact-description">Un placer formar parte <br>
           de tu proyecto creativo, enfocado <br> en crear una solución de calidad.</p>
@@ -259,14 +320,15 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+    <footer class="container">
+      <div class="social-media">
+        <a href="#"><img  loading="lazy" class="insta" src="./src/img/insta.svg" alt=""/></a>
+        <a href="#"><img loading="lazy" class="behance" src="./src/img/behance.svg" alt=""/></a>
+        <a href="#"><img loading="lazy" class="whatssapp" src="./src/img/whatsapp.svg" alt=""/></a>
       </div>
+      <a href="mailto:michael.alvacreative@gmail.com">michael.alvacreative@gmail.com</a>
+      <img loading="lazy" style="max-width: 130px;" class="nav-logo" src="./src/img/alva.png" alt=""/>
     </footer>
   </div>
 </body>
-
 </html>
